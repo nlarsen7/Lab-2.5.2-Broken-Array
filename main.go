@@ -15,7 +15,8 @@ func main() {
 
   for i:=1; i<7; i++{
     broken[i]= rand.Intn((20)+1)
-    //loops starting at index
+    //loops starting at index 1
   }
   fmt.Println(broken)
+  //prints out the array
 }
